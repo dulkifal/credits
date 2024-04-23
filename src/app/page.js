@@ -31,8 +31,7 @@ export default function Home() {
     (acc, item) => acc + item.credit,
     0
   );
-  console.log(filterData(data, searchTerm).length)
-
+  
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       {/* filter */}
