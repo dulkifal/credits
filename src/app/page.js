@@ -6,8 +6,7 @@ import Select from "react-select";
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState();
-  console.log(data);
-  // teachers
+
   let teacher = [];
 
   data.forEach((item) => {
@@ -19,15 +18,20 @@ export default function Home() {
     value: item,
     label: item,
   }));
-  console.log(teacher);
 
   // filter function
   function filterData(data, searchTerm) {
-    
     // remove dublicate obj
-   return [...new Set(data)].filter((item) => item.teacher.includes(searchTerm));
-
+    return [...new Set(data)].filter((item) =>
+      item.teacher.includes(searchTerm)
+    );
   }
+  // total ceridts
+  const totalCredits = filterData([...new Set(data)], searchTerm).reduce(
+    (acc, item) => acc + item.credit,
+    0
+  );
+  console.log(filterData(data, searchTerm).length)
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -56,14 +60,12 @@ export default function Home() {
           className="
       text-xs text-gray-700 uppercase "
         >
-          <tr
-            className="
-        "
-          >
+          <tr>
+            <th className="border p-2 text-center">No</th>
             <th className="border p-2 text-center">class</th>
             <th className="border p-2 text-center">teacher</th>
             <th className="border p-2 text-center">subject</th>
-            <th className="border p-2 text-center">credit</th>
+            <th className="border p-2 text-center">credits</th>
             <th className="border p-2 text-center">period</th>
           </tr>
         </thead>
@@ -72,29 +74,33 @@ export default function Home() {
      
       "
         >
-          {/* {data.map((item) => (
-          <tr key={item.class}>
-            <td>{item.class}</td>
-            <td>{item.teacher}</td>
-            <td>{item.sub}</td>
-            <td>{item.credit}</td>
-            <td>{item.period}</td>
-          </tr>
-        )
-        )} */}
           {/* display filtered data only */}
 
-          {filterData(data, searchTerm).map((item, index) => (
-            // remove dublicate obj
+          {filterData(data, searchTerm).map((item, index) =>
+           (
+              // remove dublicate obj
+
+              <tr key={index}>
+
+                <td className="border p-2 text-center">{index +1}</td>
+                <td className="border p-2 text-center">{item.class}</td>
+                <td className="border p-2 text-center">{item.teacher}</td>
+                <td className="border p-2 text-center"> {item.sub}</td>
+                <td className="border p-2 text-center">{item.credit}</td>
+                <td className="border p-2 text-center">{item.period}</td>
+              </tr>
+            ) 
             
-            <tr key={index}>
-              <td className="border p-2 text-center">{item.class}</td>
-              <td className="border p-2 text-center">{item.teacher}</td>
-              <td className="border p-2 text-center"> {item.sub}</td>
-              <td className="border p-2 text-center">{item.credit}</td>
-              <td className="border p-2 text-center">{item.period}</td>
-            </tr>
-          ))}
+          )}
+              <tr >
+                
+                <td className="border p-2 text-center ">{}</td>
+                <td className="border p-2 text-center ">{}</td>
+                <td className="border p-2 text-center ">{}</td>
+                <td className="border p-2 text-center ">Total</td>
+                <td className="border p-2 text-center ">{totalCredits}</td>
+                <td className="border p-2 text-center ">{}</td>
+              </tr>
         </tbody>
       </table>
     </main>
