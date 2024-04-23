@@ -16,7 +16,7 @@ export default function Home() {
   });
   const teacherList = teacher.map((item) => ({
     value: item,
-    label: item,
+    label: item + " Usthad"
   }));
 
   // filter function
