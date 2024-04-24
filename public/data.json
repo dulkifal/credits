@@ -716,7 +716,7 @@
   {
     "class": 3,
     "sub": "eng",
-    "teacher": "new",
+    "teacher": "dulki",
     "credit": 7,
     "period": 5
   },
@@ -814,7 +814,7 @@
   {
     "class": 2,
     "sub": "عقيدة",
-    "teacher": "darimi",
+    "teacher": "junaid",
     "credit": 3,
     "period": 2
   },
@@ -884,7 +884,7 @@
   {
     "class": 2,
     "sub": "eng",
-    "teacher": "junaid",
+    "teacher": "darimi",
     "credit": 7,
     "period": 5
   },
