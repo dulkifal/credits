@@ -31,7 +31,11 @@ export default function Home() {
     (acc, item) => acc + item.credit,
     0
   );
-  
+  // total periods 
+  const totalPeriods = filterData([...new Set(data)], searchTerm).reduce(
+    (acc, item) => acc + item.period,
+    0
+  );
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       {/* filter */}
@@ -98,7 +102,7 @@ export default function Home() {
                 <td className="border p-2 text-center ">{}</td>
                 <td className="border p-2 text-center ">Total</td>
                 <td className="border p-2 text-center ">{totalCredits}</td>
-                <td className="border p-2 text-center ">{}</td>
+                <td className="border p-2 text-center ">{totalPeriods}</td>
               </tr>
         </tbody>
       </table>
