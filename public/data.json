@@ -323,6 +323,13 @@
   },
   {
     "class": 7,
+    "sub": "pkv",
+    "teacher": "faizy",
+    "credit": 2,
+    "period": 2
+  },
+  {
+    "class": 7,
     "sub": "حديث",
     "teacher": "wafy",
     "credit": 5,
@@ -418,6 +425,13 @@
     "teacher": "wafy",
     "credit": 3,
     "period": 2
+  },
+  {
+    "class": 6,
+    "sub": "pkv",
+    "teacher": "noufal",
+    "credit": 3,
+    "period": 3
   },
   {
     "class": 6,
@@ -666,6 +680,13 @@
   },
   {
     "class": 4,
+    "sub": "pkv",
+    "teacher": "dulki",
+    "credit": 2,
+    "period": 3
+  },
+  {
+    "class": 4,
     "sub": "تنوير",
     "teacher": "hisham",
     "credit": 5,
@@ -792,6 +813,13 @@
   },
   {
     "class": 3,
+    "sub": "pkv",
+    "teacher": "junaid",
+    "credit": 3,
+    "period": 3
+  },
+  {
+    "class": 3,
     "sub": "math",
     "teacher": "yazeed",
     "credit": 8,
@@ -911,6 +939,13 @@
   },
   {
     "class": 2,
+    "sub": "pkv",
+    "teacher": "salman",
+    "credit": 3,
+    "period": 3
+  },
+  {
+    "class": 2,
     "sub": "math",
     "teacher": "yazeed",
     "credit": 6,
@@ -1020,6 +1055,13 @@
     "teacher": "badr",
     "credit": 2.5,
     "period": 2
+  },
+  {
+    "class": 1,
+    "sub": "pkv",
+    "teacher": "wafy",
+    "credit": 3,
+    "period": 3
   },
   {
     "class": 1,
