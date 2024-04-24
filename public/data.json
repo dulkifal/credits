@@ -1,926 +1,996 @@
 [
-    {
-      "class": 10,
-      "sub": "ادب",
-      "teacher": "hisham",
-      "credit": 6,
-      "period": 3
-    },
-    {
-      "class": 10,
-      "sub": "اصول الفقه",
-      "teacher": "badr",
-      "credit": 6,
-      "period": 4
-    },
-    {
-      "class": 10,
-      "sub": "eng",
-      "teacher": "dulki",
-      "credit": 6,
-      "period": 3
-    },
-    {
-      "class": 10,
-      "sub": "بلاغة",
-      "teacher": "faizy",
-      "credit": 6,
-      "period": 3
-    },
-    {
-      "class": 10,
-      "sub": "ففه",
-      "teacher": "favaz",
-      "credit": 8,
-      "period": 4
-    },
-    {
-      "class": 10,
-      "sub": "حديث",
-      "teacher": "hisham",
-      "credit": 7,
-      "period": 4
-    },
-    {
-      "class": 10,
-      "sub": "البيضاوي",
-      "teacher": "jabir",
-      "credit": 7,
-      "period": 4
-    },
-    {
-      "class": 10,
-      "sub": "urdu",
-      "teacher": "jasar",
-      "credit": 6,
-      "period": 3
-    },
-    {
-      "class": 10,
-      "sub": "social",
-      "teacher": "junaid",
-      "credit": 7,
-      "period": 4
-    },
-    {
-      "class": 10,
-      "sub": "منطق",
-      "teacher": "new",
-      "credit": 6,
-      "period": 4
-    },
-    {
-      "class": 10,
-      "sub": "thareeq",
-      "teacher": "noufal",
-      "credit": 7,
-      "period": 4
-    },
-    {
-      "class": 10,
-      "sub": "عقيدة",
-      "teacher": "salman",
-      "credit": 7,
-      "period": 4
-    },
-    {
-      "class": 10,
-      "sub": "تخصص",
-      "teacher": "wafy",
-      "credit": 8,
-      "period": 4
-    },
-    {
-      "class": 9,
-      "sub": "ففه",
-      "teacher": "badr",
-      "credit": 8,
-      "period": 4
-    },
-    {
-      "class": 9,
-      "sub": "حديث",
-      "teacher": "basith",
-      "credit": 7,
-      "period": 4
-    },
-    {
-      "class": 9,
-      "sub": "eng",
-      "teacher": "dulki",
-      "credit": 6,
-      "period": 3
-    },
-    {
-      "class": 9,
-      "sub": "منطق",
-      "teacher": "faizy",
-      "credit": 6,
-      "period": 4
-    },
-    {
-      "class": 9,
-      "sub": "بلاغة",
-      "teacher": "favaz",
-      "credit": 6,
-      "period": 3
-    },
-    {
-      "class": 9,
-      "sub": "thareeq",
-      "teacher": "jabir",
-      "credit": 7,
-      "period": 4
-    },
-    {
-      "class": 9,
-      "sub": "urdu",
-      "teacher": "jasar",
-      "credit": 6,
-      "period": 3
-    },
-    {
-      "class": 9,
-      "sub": "ادب",
-      "teacher": "junaid",
-      "credit": 6,
-      "period": 3
-    },
-    {
-      "class": 9,
-      "sub": "اصول الفقه",
-      "teacher": "new",
-      "credit": 6,
-      "period": 4
-    },
-    {
-      "class": 9,
-      "sub": "عقيدة",
-      "teacher": "salman",
-      "credit": 7,
-      "period": 4
-    },
-    {
-      "class": 9,
-      "sub": "social",
-      "teacher": "salman",
-      "credit": 7,
-      "period": 4
-    },
-    {
-      "class": 9,
-      "sub": "تخصص",
-      "teacher": "wafy",
-      "credit": 8,
-      "period": 4
-    },
-    {
-      "class": 9,
-      "sub": "thafseer",
-      "teacher": "yazeed",
-      "credit": 7,
-      "period": 4
-    },
-    {
-      "class": 7,
-      "sub": "thasawuf",
-      "teacher": "asif",
-      "credit": 4,
-      "period": 3
-    },
-    {
-      "class": 7,
-      "sub": "ادب",
-      "teacher": "new",
-      "credit": 4,
-      "period": 3
-    },
-    {
-      "class": 7,
-      "sub": "بلاغة",
-      "teacher": "badr",
-      "credit": 5,
-      "period": 3
-    },
-    {
-      "class": 7,
-      "sub": "ففه",
-      "teacher": "darimi",
-      "credit": 9,
-      "period": 6
-    },
-    {
-      "class": 7,
-      "sub": "thafseer",
-      "teacher": "dulki",
-      "credit": 4.5,
-      "period": 3
-    },
-    {
-      "class": 7,
-      "sub": "it",
-      "teacher": "dulki",
-      "credit": 1,
-      "period": 1
-    },
-    {
-      "class": 7,
-      "sub": "alfiya",
-      "teacher": "faizy",
-      "credit": 9,
-      "period": 6
-    },
-    {
-      "class": 7,
-      "sub": "اصول الفقه",
-      "teacher": "hisham",
-      "credit": 2,
-      "period": 1
-    },
-    {
-      "class": 7,
-      "sub": "politics",
-      "teacher": "jabir",
-      "credit": 5,
-      "period": 4
-    },
-    {
-      "class": 7,
-      "sub": "tc",
-      "teacher": "junaid",
-      "credit": 5,
-      "period": 2
-    },
-    {
-      "class": 7,
-      "sub": "thareeq",
-      "teacher": "noufal",
-      "credit": 3,
-      "period": 2
-    },
-    {
-      "class": 7,
-      "sub": "eng",
-      "teacher": "salman",
-      "credit": 6.5,
-      "period": 4
-    },
-    {
-      "class": 7,
-      "sub": "socialogy",
-      "teacher": "salman",
-      "credit": 5,
-      "period": 4
-    },
-    {
-      "class": 7,
-      "sub": "urdu",
-      "teacher": "sulfi",
-      "credit": 5,
-      "period": 3
-    },
-    {
-      "class": 7,
-      "sub": "حديث",
-      "teacher": "wafy",
-      "credit": 5,
-      "period": 3
-    },
-    {
-      "class": 6,
-      "sub": "tc",
-      "teacher": "asif",
-      "credit": 5,
-      "period": 2
-    },
-    {
-      "class": 6,
-      "sub": "حديث",
-      "teacher": "badr",
-      "credit": 7,
-      "period": 4
-    },
-    {
-      "class": 6,
-      "sub": "thafseer",
-      "teacher": "basith",
-      "credit": 4.5,
-      "period": 3
-    },
-    {
-      "class": 6,
-      "sub": "politics",
-      "teacher": "dulki",
-      "credit": 3,
-      "period": 2
-    },
-    {
-      "class": 6,
-      "sub": "it",
-      "teacher": "dulki",
-      "credit": 1,
-      "period": 1
-    },
-    {
-      "class": 6,
-      "sub": "بلاغة",
-      "teacher": "hisham",
-      "credit": 4,
-      "period": 3
-    },
-    {
-      "class": 6,
-      "sub": "علوم القران",
-      "teacher": "junaid",
-      "credit": 3.5,
-      "period": 2
-    },
-    {
-      "class": 6,
-      "sub": "ففه",
-      "teacher": "faizy",
-      "credit": 9,
-      "period": 6
-    },
-    {
-      "class": 6,
-      "sub": "alfiya",
-      "teacher": "new",
-      "credit": 8,
-      "period": 6
-    },
-    {
-      "class": 6,
-      "sub": "thareeq",
-      "teacher": "noufal",
-      "credit": 4,
-      "period": 3
-    },
-    {
-      "class": 6,
-      "sub": "eng",
-      "teacher": "salman",
-      "credit": 6,
-      "period": 4
-    },
-    {
-      "class": 6,
-      "sub": "ادب",
-      "teacher": "sulfi",
-      "credit": 5,
-      "period": 3
-    },
-    {
-      "class": 6,
-      "sub": "socialogy",
-      "teacher": "wafy",
-      "credit": 3,
-      "period": 2
-    },
-    {
-      "class": 6,
-      "sub": "urdu",
-      "teacher": "yazeed",
-      "credit": 6,
-      "period": 4
-    },
-    {
-      "class": 5,
-      "sub": "tc",
-      "teacher": "asif",
-      "credit": 4,
-      "period": 2
-    },
-    {
-      "class": 5,
-      "sub": "mlm",
-      "teacher": "asif",
-      "credit": 4,
-      "period": 2
-    },
-    {
-      "class": 5,
-      "sub": "thafseer",
-      "teacher": "badr",
-      "credit": 1.5,
-      "period": 1
-    },
-    {
-      "class": 5,
-      "sub": "alfiya",
-      "teacher": "basith",
-      "credit": 7,
-      "period": 5
-    },
-    {
-      "class": 5,
-      "sub": "ففه",
-      "teacher": "darimi",
-      "credit": 7.5,
-      "period": 5
-    },
-    {
-      "class": 5,
-      "sub": "it",
-      "teacher": "dulki",
-      "credit": 1,
-      "period": 1
-    },
-    {
-      "class": 5,
-      "sub": "ادب",
-      "teacher": "favaz",
-      "credit": 4.5,
-      "period": 2
-    },
-    {
-      "class": 5,
-      "sub": "حديث",
-      "teacher": "hisham",
-      "credit": 3,
-      "period": 3
-    },
-    {
-      "class": 5,
-      "sub": "thareeq",
-      "teacher": "junaid",
-      "credit": 3,
-      "period": 3
-    },
-    {
-      "class": 5,
-      "sub": "eng",
-      "teacher": "salman",
-      "credit": 6,
-      "period": 4
-    },
-    {
-      "class": 5,
-      "sub": "نحو",
-      "teacher": "sulfi",
-      "credit": 5,
-      "period": 4
-    },
-    {
-      "class": 5,
-      "sub": "تعليم المتعلم",
-      "teacher": "wafy",
-      "credit": 1,
-      "period": 1
-    },
-    {
-      "class": 5,
-      "sub": "urdu",
-      "teacher": "yazeed",
-      "credit": 6.5,
-      "period": 3
-    },
-    {
-      "class": 4,
-      "sub": "نحو",
-      "teacher": "asif",
-      "credit": 5.5,
-      "period": 4
-    },
-    {
-      "class": 4,
-      "sub": "تصوف",
-      "teacher": "badr",
-      "credit": 2,
-      "period": 2
-    },
-    {
-      "class": 4,
-      "sub": "ادب",
-      "teacher": "basith",
-      "credit": 6,
-      "period": 4
-    },
-    {
-      "class": 4,
-      "sub": "mlm",
-      "teacher": "darimi",
-      "credit": 4,
-      "period": 3
-    },
-    {
-      "class": 4,
-      "sub": "it",
-      "teacher": "dulki",
-      "credit": 1,
-      "period": 1
-    },
-    {
-      "class": 4,
-      "sub": "math",
-      "teacher": "dulki",
-      "credit": 5,
-      "period": 3
-    },
-    {
-      "class": 4,
-      "sub": "حديث",
-      "teacher": "favaz",
-      "credit": 4.5,
-      "period": 4
-    },
-    {
-      "class": 4,
-      "sub": "thareeq",
-      "teacher": "hisham",
-      "credit": 2,
-      "period": 2
-    },
-    {
-      "class": 4,
-      "sub": "tc",
-      "teacher": "junaid",
-      "credit": 4,
-      "period": 2
-    },
-    {
-      "class": 4,
-      "sub": "social",
-      "teacher": "noufal",
-      "credit": 3.5,
-      "period": 3
-    },
-    {
-      "class": 4,
-      "sub": "ففه",
-      "teacher": "sulfi",
-      "credit": 8,
-      "period": 5
-    },
-    {
-      "class": 4,
-      "sub": "eng",
-      "teacher": "wafy",
-      "credit": 6,
-      "period": 3
-    },
-    {
-      "class": 4,
-      "sub": "urdu",
-      "teacher": "yazeed",
-      "credit": 5,
-      "period": 3
-    },
-    {
-      "class": 4,
-      "sub": "hindi",
-      "teacher": "",
-      "credit": "",
-      "period": ""
-    },
-    {
-      "class": 3,
-      "sub": "نحو",
-      "teacher": "asif",
-      "credit": 7,
-      "period": 5
-    },
-    {
-      "class": 3,
-      "sub": "thareeq",
-      "teacher": "asif",
-      "credit": 2,
-      "period": 2
-    },
-    {
-      "class": 3,
-      "sub": "ففه",
-      "teacher": "badr",
-      "credit": 6,
-      "period": 4
-    },
-    {
-      "class": 3,
-      "sub": "mlm",
-      "teacher": "basith",
-      "credit": 4,
-      "period": 3
-    },
-    {
-      "class": 3,
-      "sub": "صرف",
-      "teacher": "darimi",
-      "credit": 3,
-      "period": 3
-    },
-    {
-      "class": 3,
-      "sub": "social",
-      "teacher": "dulki",
-      "credit": 3.5,
-      "period": 3
-    },
-    {
-      "class": 3,
-      "sub": "eng",
-      "teacher": "favaz",
-      "credit": 7,
-      "period": 5
-    },
-    {
-      "class": 3,
-      "sub": "it",
-      "teacher": "hisham",
-      "credit": 1,
-      "period": 1
-    },
-    {
-      "class": 3,
-      "sub": "hindi",
-      "teacher": "hisham",
-      "credit": 1,
-      "period": 1
-    },
-    {
-      "class": 3,
-      "sub": "حديث",
-      "teacher": "jasar",
-      "credit": 4,
-      "period": 3
-    },
-    {
-      "class": 3,
-      "sub": "urdu",
-      "teacher": "jasar",
-      "credit": 7,
-      "period": 4
-    },
-    {
-      "class": 3,
-      "sub": "ادب",
-      "teacher": "junaid",
-      "credit": 6,
-      "period": 4
-    },
-    {
-      "class": 3,
-      "sub": "science",
-      "teacher": "noufal",
-      "credit": 5,
-      "period": 3
-    },
-    {
-      "class": 3,
-      "sub": "tc",
-      "teacher": "sulfi",
-      "credit": 4,
-      "period": 2
-    },
-    {
-      "class": 3,
-      "sub": "تصوف",
-      "teacher": "wafy",
-      "credit": 2,
-      "period": 2
-    },
-    {
-      "class": 3,
-      "sub": "math",
-      "teacher": "yazeed",
-      "credit": 8,
-      "period": 5
-    },
-    {
-      "class": 2,
-      "sub": "حديث",
-      "teacher": "asif",
-      "credit": 4,
-      "period": 3
-    },
-    {
-      "class": 2,
-      "sub": "نحو",
-      "teacher": "basith",
-      "credit": 6,
-      "period": 4
-    },
-    {
-      "class": 2,
-      "sub": "عقيدة",
-      "teacher": "darimi",
-      "credit": 3,
-      "period": 2
-    },
-    {
-      "class": 2,
-      "sub": "thareeq",
-      "teacher": "dulki",
-      "credit": 2,
-      "period": 2
-    },
-    {
-      "class": 2,
-      "sub": "it",
-      "teacher": "dulki",
-      "credit": 1,
-      "period": 1
-    },
-    {
-      "class": 2,
-      "sub": "hindi",
-      "teacher": "dulki",
-      "credit": 1,
-      "period": 1
-    },
-    {
-      "class": 2,
-      "sub": "ففه",
-      "teacher": "faizy",
-      "credit": 5,
-      "period": 4
-    },
-    {
-      "class": 2,
-      "sub": "mlm",
-      "teacher": "faizy",
-      "credit": 4,
-      "period": 3
-    },
-    {
-      "class": 2,
-      "sub": "ادب",
-      "teacher": "favaz",
-      "credit": 7,
-      "period": 5
-    },
-    {
-      "class": 2,
-      "sub": "science",
-      "teacher": "favaz",
-      "credit": 6,
-      "period": 4
-    },
-    {
-      "class": 2,
-      "sub": "urdu",
-      "teacher": "hisham",
-      "credit": 7,
-      "period": 4
-    },
-    {
-      "class": 2,
-      "sub": "tc",
-      "teacher": "jasar",
-      "credit": 4,
-      "period": 2
-    },
-    {
-      "class": 2,
-      "sub": "eng",
-      "teacher": "junaid",
-      "credit": 7,
-      "period": 5
-    },
-    {
-      "class": 2,
-      "sub": "صرف",
-      "teacher": "sulfi",
-      "credit": 4.5,
-      "period": 3
-    },
-    {
-      "class": 2,
-      "sub": "social",
-      "teacher": "noufal",
-      "credit": 3,
-      "period": 3
-    },
-    {
-      "class": 2,
-      "sub": "math",
-      "teacher": "yazeed",
-      "credit": 6,
-      "period": 4
-    },
-    {
-      "class": 1,
-      "sub": "eng",
-      "teacher": "asif",
-      "credit": 8,
-      "period": 5
-    },
-    {
-      "class": 1,
-      "sub": "thareeq",
-      "teacher": "badr",
-      "credit": 2,
-      "period": 2
-    },
-    {
-      "class": 1,
-      "sub": "math",
-      "teacher": "basith",
-      "credit": 9,
-      "period": 6
-    },
-    {
-      "class": 1,
-      "sub": "ففه",
-      "teacher": "darimi",
-      "credit": 5,
-      "period": 4
-    },
-    {
-      "class": 1,
-      "sub": "صرف",
-      "teacher": "darimi",
-      "credit": 4.5,
-      "period": 3
-    },
-    {
-      "class": 1,
-      "sub": "it",
-      "teacher": "dulki",
-      "credit": 1,
-      "period": 1
-    },
-    {
-      "class": 1,
-      "sub": "hindi",
-      "teacher": "dulki",
-      "credit": 1,
-      "period": 1
-    },
-    {
-      "class": 1,
-      "sub": "ادب",
-      "teacher": "favaz",
-      "credit": 8,
-      "period": 6
-    },
-    {
-      "class": 1,
-      "sub": "تصوف",
-      "teacher": "jabir",
-      "credit": 1,
-      "period": 1
-    },
-    {
-      "class": 1,
-      "sub": "urdu",
-      "teacher": "jasar",
-      "credit": 7,
-      "period": 4
-    },
-    {
-      "class": 1,
-      "sub": "science",
-      "teacher": "junaid",
-      "credit": 5,
-      "period": 3
-    },
-    {
-      "class": 1,
-      "sub": "social",
-      "teacher": "noufal",
-      "credit": 4.5,
-      "period": 3
-    },
-    {
-      "class": 1,
-      "sub": "نحو",
-      "teacher": "sulfi",
-      "credit": 6,
-      "period": 4
-    },
-    {
-      "class": 1,
-      "sub": "حديث",
-      "teacher": "wafy",
-      "credit": 3,
-      "period": 3
-    },
-    {
-      "class": 1,
-      "sub": "mlm",
-      "teacher": "yazeed",
-      "credit": 4.5,
-      "period": 3
-    },
-    {
-      "class": "1",
-      "sub": "تنوير",
-      "teacher": "hisham",
-      "credit": 5,
-      "period": 4
-    },
-    {
-      "class": "",
-      "sub": "",
-      "teacher": "",
-      "credit": "",
-      "period": ""
-    },
-    {
-      "class": "",
-      "sub": "",
-      "teacher": "",
-      "credit": "",
-      "period": ""
-    }
-  ]
+  {
+    "class": 10,
+    "sub": "ادب",
+    "teacher": "hisham",
+    "credit": 6,
+    "period": 3
+  },
+  {
+    "class": 10,
+    "sub": "اصول الفقه",
+    "teacher": "badr",
+    "credit": 6,
+    "period": 4
+  },
+  {
+    "class": 10,
+    "sub": "eng",
+    "teacher": "dulki",
+    "credit": 6,
+    "period": 3
+  },
+  {
+    "class": 10,
+    "sub": "بلاغة",
+    "teacher": "faizy",
+    "credit": 6,
+    "period": 3
+  },
+  {
+    "class": 10,
+    "sub": "ففه",
+    "teacher": "favaz",
+    "credit": 8,
+    "period": 4
+  },
+  {
+    "class": 10,
+    "sub": "حديث",
+    "teacher": "hisham",
+    "credit": 7,
+    "period": 4
+  },
+  {
+    "class": 10,
+    "sub": "البيضاوي",
+    "teacher": "jabir",
+    "credit": 7,
+    "period": 4
+  },
+  {
+    "class": 10,
+    "sub": "urdu",
+    "teacher": "jasar",
+    "credit": 6,
+    "period": 3
+  },
+  {
+    "class": 10,
+    "sub": "social",
+    "teacher": "junaid",
+    "credit": 7,
+    "period": 4
+  },
+  {
+    "class": 10,
+    "sub": "منطق",
+    "teacher": "new",
+    "credit": 6,
+    "period": 4
+  },
+  {
+    "class": 10,
+    "sub": "thareeq",
+    "teacher": "noufal",
+    "credit": 7,
+    "period": 4
+  },
+  {
+    "class": 10,
+    "sub": "عقيدة",
+    "teacher": "salman",
+    "credit": 7,
+    "period": 4
+  },
+  {
+    "class": 10,
+    "sub": "DA",
+    "teacher": "basith",
+    "credit": 1,
+    "period": 2
+  },
+  {
+    "class": 10,
+    "sub": "DA",
+    "teacher": "favaz",
+    "credit": 1,
+    "period": 2
+  },
+  {
+    "class": 10,
+    "sub": "DA",
+    "teacher": "wafy",
+    "credit": 1,
+    "period": 2
+  },
+  {
+    "class": 10,
+    "sub": "تخصص",
+    "teacher": "wafy",
+    "credit": 8,
+    "period": 4
+  },
+  {
+    "class": 9,
+    "sub": "ففه",
+    "teacher": "badr",
+    "credit": 8,
+    "period": 4
+  },
+  {
+    "class": 9,
+    "sub": "حديث",
+    "teacher": "basith",
+    "credit": 7,
+    "period": 4
+  },
+  {
+    "class": 9,
+    "sub": "eng",
+    "teacher": "dulki",
+    "credit": 6,
+    "period": 3
+  },
+  {
+    "class": 9,
+    "sub": "منطق",
+    "teacher": "faizy",
+    "credit": 6,
+    "period": 4
+  },
+  {
+    "class": 9,
+    "sub": "بلاغة",
+    "teacher": "favaz",
+    "credit": 6,
+    "period": 3
+  },
+  {
+    "class": 9,
+    "sub": "thareeq",
+    "teacher": "jabir",
+    "credit": 7,
+    "period": 4
+  },
+  {
+    "class": 9,
+    "sub": "urdu",
+    "teacher": "jasar",
+    "credit": 6,
+    "period": 3
+  },
+  {
+    "class": 9,
+    "sub": "ادب",
+    "teacher": "junaid",
+    "credit": 6,
+    "period": 3
+  },
+  {
+    "class": 9,
+    "sub": "اصول الفقه",
+    "teacher": "new",
+    "credit": 6,
+    "period": 4
+  },
+  {
+    "class": 9,
+    "sub": "عقيدة",
+    "teacher": "salman",
+    "credit": 7,
+    "period": 4
+  },
+  {
+    "class": 9,
+    "sub": "social",
+    "teacher": "salman",
+    "credit": 7,
+    "period": 4
+  },
+  {
+    "class": 9,
+    "sub": "DA",
+    "teacher": "basith",
+    "credit": 1,
+    "period": 2
+  },
+  {
+    "class": 9,
+    "sub": "DA",
+    "teacher": "favaz",
+    "credit": 1,
+    "period": 2
+  },
+  {
+    "class": 9,
+    "sub": "DA",
+    "teacher": "wafy",
+    "credit": 1,
+    "period": 2
+  },
+  {
+    "class": 9,
+    "sub": "تخصص",
+    "teacher": "favaz",
+    "credit": 8,
+    "period": 4
+  },
+  {
+    "class": 9,
+    "sub": "thafseer",
+    "teacher": "hisham",
+    "credit": 7,
+    "period": 4
+  },
+  {
+    "class": 7,
+    "sub": "thasawuf",
+    "teacher": "asif",
+    "credit": 4,
+    "period": 3
+  },
+  {
+    "class": 7,
+    "sub": "ادب",
+    "teacher": "new",
+    "credit": 4,
+    "period": 3
+  },
+  {
+    "class": 7,
+    "sub": "بلاغة",
+    "teacher": "badr",
+    "credit": 5,
+    "period": 3
+  },
+  {
+    "class": 7,
+    "sub": "ففه",
+    "teacher": "darimi",
+    "credit": 9,
+    "period": 6
+  },
+  {
+    "class": 7,
+    "sub": "thafseer",
+    "teacher": "dulki",
+    "credit": 4.5,
+    "period": 3
+  },
+  {
+    "class": 7,
+    "sub": "it",
+    "teacher": "dulki",
+    "credit": 1,
+    "period": 1
+  },
+  {
+    "class": 7,
+    "sub": "alfiya",
+    "teacher": "faizy",
+    "credit": 9,
+    "period": 6
+  },
+  {
+    "class": 7,
+    "sub": "اصول الفقه",
+    "teacher": "hisham",
+    "credit": 2,
+    "period": 1
+  },
+  {
+    "class": 7,
+    "sub": "politics",
+    "teacher": "jabir",
+    "credit": 5,
+    "period": 4
+  },
+  {
+    "class": 7,
+    "sub": "tc",
+    "teacher": "junaid",
+    "credit": 5,
+    "period": 2
+  },
+  {
+    "class": 7,
+    "sub": "thareeq",
+    "teacher": "noufal",
+    "credit": 3,
+    "period": 2
+  },
+  {
+    "class": 7,
+    "sub": "eng",
+    "teacher": "salman",
+    "credit": 6.5,
+    "period": 4
+  },
+  {
+    "class": 7,
+    "sub": "socialogy",
+    "teacher": "salman",
+    "credit": 5,
+    "period": 4
+  },
+  {
+    "class": 7,
+    "sub": "urdu",
+    "teacher": "sulfi",
+    "credit": 5,
+    "period": 3
+  },
+  {
+    "class": 7,
+    "sub": "حديث",
+    "teacher": "wafy",
+    "credit": 5,
+    "period": 3
+  },
+  {
+    "class": 6,
+    "sub": "tc",
+    "teacher": "asif",
+    "credit": 5,
+    "period": 2
+  },
+  {
+    "class": 6,
+    "sub": "حديث",
+    "teacher": "badr",
+    "credit": 7,
+    "period": 4
+  },
+  {
+    "class": 6,
+    "sub": "thafseer",
+    "teacher": "basith",
+    "credit": 4.5,
+    "period": 3
+  },
+  {
+    "class": 6,
+    "sub": "politics",
+    "teacher": "dulki",
+    "credit": 3,
+    "period": 2
+  },
+  {
+    "class": 6,
+    "sub": "it",
+    "teacher": "dulki",
+    "credit": 1,
+    "period": 1
+  },
+  {
+    "class": 6,
+    "sub": "بلاغة",
+    "teacher": "hisham",
+    "credit": 4,
+    "period": 3
+  },
+  {
+    "class": 6,
+    "sub": "علوم القران",
+    "teacher": "junaid",
+    "credit": 3.5,
+    "period": 2
+  },
+  {
+    "class": 6,
+    "sub": "ففه",
+    "teacher": "faizy",
+    "credit": 9,
+    "period": 6
+  },
+  {
+    "class": 6,
+    "sub": "alfiya",
+    "teacher": "new",
+    "credit": 8,
+    "period": 6
+  },
+  {
+    "class": 6,
+    "sub": "thareeq",
+    "teacher": "noufal",
+    "credit": 4,
+    "period": 3
+  },
+  {
+    "class": 6,
+    "sub": "eng",
+    "teacher": "salman",
+    "credit": 6,
+    "period": 4
+  },
+  {
+    "class": 6,
+    "sub": "ادب",
+    "teacher": "sulfi",
+    "credit": 5,
+    "period": 3
+  },
+  {
+    "class": 6,
+    "sub": "socialogy",
+    "teacher": "wafy",
+    "credit": 3,
+    "period": 2
+  },
+  {
+    "class": 6,
+    "sub": "urdu",
+    "teacher": "yazeed",
+    "credit": 6,
+    "period": 4
+  },
+  {
+    "class": 5,
+    "sub": "tc",
+    "teacher": "asif",
+    "credit": 4,
+    "period": 2
+  },
+  {
+    "class": 5,
+    "sub": "mlm",
+    "teacher": "asif",
+    "credit": 4,
+    "period": 2
+  },
+  {
+    "class": 5,
+    "sub": "thafseer",
+    "teacher": "badr",
+    "credit": 1.5,
+    "period": 1
+  },
+  {
+    "class": 5,
+    "sub": "alfiya",
+    "teacher": "basith",
+    "credit": 7,
+    "period": 5
+  },
+  {
+    "class": 5,
+    "sub": "ففه",
+    "teacher": "darimi",
+    "credit": 7.5,
+    "period": 5
+  },
+  {
+    "class": 5,
+    "sub": "it",
+    "teacher": "dulki",
+    "credit": 1,
+    "period": 1
+  },
+  {
+    "class": 5,
+    "sub": "ادب",
+    "teacher": "favaz",
+    "credit": 4.5,
+    "period": 2
+  },
+  {
+    "class": 5,
+    "sub": "حديث",
+    "teacher": "hisham",
+    "credit": 3,
+    "period": 3
+  },
+  {
+    "class": 5,
+    "sub": "thareeq",
+    "teacher": "junaid",
+    "credit": 3,
+    "period": 3
+  },
+  {
+    "class": 5,
+    "sub": "eng",
+    "teacher": "salman",
+    "credit": 6,
+    "period": 4
+  },
+  {
+    "class": 5,
+    "sub": "نحو",
+    "teacher": "sulfi",
+    "credit": 5,
+    "period": 4
+  },
+  {
+    "class": 5,
+    "sub": "تعليم المتعلم",
+    "teacher": "wafy",
+    "credit": 1,
+    "period": 1
+  },
+  {
+    "class": 5,
+    "sub": "history",
+    "teacher": "faizy",
+    "credit": 2,
+    "period": 2
+  },
+  {
+    "class": 5,
+    "sub": "math",
+    "teacher": "yazeed",
+    "credit": 8,
+    "period": 4
+  },
+  {
+    "class": 5,
+    "sub": "geography",
+    "teacher": "new",
+    "credit": 2.5,
+    "period": 2
+  },
+  {
+    "class": 5,
+    "sub": "physics",
+    "teacher": "sir",
+    "credit": 2,
+    "period": 2
+  },
+  {
+    "class": 5,
+    "sub": "chemisty",
+    "teacher": "sir",
+    "credit": 2,
+    "period": 2
+  },
+  {
+    "class": 5,
+    "sub": "biology",
+    "teacher": "noufal",
+    "credit": 2,
+    "period": 2
+  },
+  {
+    "class": 5,
+    "sub": "urdu",
+    "teacher": "yazeed",
+    "credit": 6.5,
+    "period": 3
+  },
+  {
+    "class": 4,
+    "sub": "نحو",
+    "teacher": "asif",
+    "credit": 5.5,
+    "period": 4
+  },
+  {
+    "class": 4,
+    "sub": "تصوف",
+    "teacher": "badr",
+    "credit": 2,
+    "period": 2
+  },
+  {
+    "class": 4,
+    "sub": "ادب",
+    "teacher": "basith",
+    "credit": 6,
+    "period": 4
+  },
+  {
+    "class": 4,
+    "sub": "mlm",
+    "teacher": "darimi",
+    "credit": 4,
+    "period": 3
+  },
+  {
+    "class": 4,
+    "sub": "it",
+    "teacher": "dulki",
+    "credit": 1,
+    "period": 1
+  },
+  {
+    "class": 4,
+    "sub": "math",
+    "teacher": "sir",
+    "credit": 5,
+    "period": 3
+  },
+  {
+    "class": 4,
+    "sub": "حديث",
+    "teacher": "favaz",
+    "credit": 4.5,
+    "period": 4
+  },
+  {
+    "class": 4,
+    "sub": "thareeq",
+    "teacher": "hisham",
+    "credit": 2,
+    "period": 2
+  },
+  {
+    "class": 4,
+    "sub": "tc",
+    "teacher": "junaid",
+    "credit": 4,
+    "period": 2
+  },
+  {
+    "class": 4,
+    "sub": "social",
+    "teacher": "noufal",
+    "credit": 3.5,
+    "period": 3
+  },
+  {
+    "class": 4,
+    "sub": "ففه",
+    "teacher": "sulfi",
+    "credit": 8,
+    "period": 5
+  },
+  {
+    "class": 4,
+    "sub": "eng",
+    "teacher": "wafy",
+    "credit": 6,
+    "period": 3
+  },
+  {
+    "class": 4,
+    "sub": "urdu",
+    "teacher": "yazeed",
+    "credit": 5,
+    "period": 3
+  },
+  {
+    "class": 4,
+    "sub": "hindi",
+    "teacher": "",
+    "credit": "",
+    "period": ""
+  },
+  {
+    "class": 3,
+    "sub": "نحو",
+    "teacher": "asif",
+    "credit": 7,
+    "period": 5
+  },
+  {
+    "class": 3,
+    "sub": "thareeq",
+    "teacher": "asif",
+    "credit": 2,
+    "period": 2
+  },
+  {
+    "class": 3,
+    "sub": "ففه",
+    "teacher": "badr",
+    "credit": 6,
+    "period": 4
+  },
+  {
+    "class": 3,
+    "sub": "mlm",
+    "teacher": "basith",
+    "credit": 4,
+    "period": 3
+  },
+  {
+    "class": 3,
+    "sub": "صرف",
+    "teacher": "darimi",
+    "credit": 3,
+    "period": 3
+  },
+  {
+    "class": 3,
+    "sub": "social",
+    "teacher": "dulki",
+    "credit": 3.5,
+    "period": 3
+  },
+  {
+    "class": 3,
+    "sub": "eng",
+    "teacher": "new",
+    "credit": 7,
+    "period": 5
+  },
+  {
+    "class": 3,
+    "sub": "it",
+    "teacher": "hisham",
+    "credit": 1,
+    "period": 1
+  },
+  {
+    "class": 3,
+    "sub": "hindi",
+    "teacher": "hisham",
+    "credit": 1,
+    "period": 1
+  },
+  {
+    "class": 3,
+    "sub": "حديث",
+    "teacher": "jasar",
+    "credit": 4,
+    "period": 3
+  },
+  {
+    "class": 3,
+    "sub": "urdu",
+    "teacher": "jasar",
+    "credit": 7,
+    "period": 4
+  },
+  {
+    "class": 3,
+    "sub": "ادب",
+    "teacher": "junaid",
+    "credit": 6,
+    "period": 4
+  },
+  {
+    "class": 3,
+    "sub": "science",
+    "teacher": "noufal",
+    "credit": 5,
+    "period": 3
+  },
+  {
+    "class": 3,
+    "sub": "tc",
+    "teacher": "sulfi",
+    "credit": 4,
+    "period": 2
+  },
+  {
+    "class": 3,
+    "sub": "تصوف",
+    "teacher": "wafy",
+    "credit": 2,
+    "period": 2
+  },
+  {
+    "class": 3,
+    "sub": "math",
+    "teacher": "yazeed",
+    "credit": 8,
+    "period": 5
+  },
+  {
+    "class": 2,
+    "sub": "حديث",
+    "teacher": "asif",
+    "credit": 4,
+    "period": 3
+  },
+  {
+    "class": 2,
+    "sub": "نحو",
+    "teacher": "basith",
+    "credit": 6,
+    "period": 4
+  },
+  {
+    "class": 2,
+    "sub": "عقيدة",
+    "teacher": "darimi",
+    "credit": 3,
+    "period": 2
+  },
+  {
+    "class": 2,
+    "sub": "thareeq",
+    "teacher": "new",
+    "credit": 2,
+    "period": 2
+  },
+  {
+    "class": 2,
+    "sub": "it",
+    "teacher": "dulki",
+    "credit": 1,
+    "period": 1
+  },
+  {
+    "class": 2,
+    "sub": "hindi",
+    "teacher": "dulki",
+    "credit": 1,
+    "period": 1
+  },
+  {
+    "class": 2,
+    "sub": "ففه",
+    "teacher": "faizy",
+    "credit": 5,
+    "period": 4
+  },
+  {
+    "class": 2,
+    "sub": "mlm",
+    "teacher": "new",
+    "credit": 4,
+    "period": 3
+  },
+  {
+    "class": 2,
+    "sub": "ادب",
+    "teacher": "favaz",
+    "credit": 7,
+    "period": 5
+  },
+  {
+    "class": 2,
+    "sub": "science",
+    "teacher": "new",
+    "credit": 6,
+    "period": 4
+  },
+  {
+    "class": 2,
+    "sub": "urdu",
+    "teacher": "sulfi",
+    "credit": 7,
+    "period": 4
+  },
+  {
+    "class": 2,
+    "sub": "tc",
+    "teacher": "jasar",
+    "credit": 4,
+    "period": 2
+  },
+  {
+    "class": 2,
+    "sub": "eng",
+    "teacher": "junaid",
+    "credit": 7,
+    "period": 5
+  },
+  {
+    "class": 2,
+    "sub": "صرف",
+    "teacher": "hisham",
+    "credit": 4.5,
+    "period": 3
+  },
+  {
+    "class": 2,
+    "sub": "social",
+    "teacher": "noufal",
+    "credit": 3,
+    "period": 3
+  },
+  {
+    "class": 2,
+    "sub": "math",
+    "teacher": "yazeed",
+    "credit": 6,
+    "period": 4
+  },
+  {
+    "class": 1,
+    "sub": "eng",
+    "teacher": "asif",
+    "credit": 8,
+    "period": 5
+  },
+  {
+    "class": 1,
+    "sub": "thareeq",
+    "teacher": "badr",
+    "credit": 2,
+    "period": 2
+  },
+  {
+    "class": 1,
+    "sub": "math",
+    "teacher": "basith",
+    "credit": 9,
+    "period": 6
+  },
+  {
+    "class": 1,
+    "sub": "ففه",
+    "teacher": "darimi",
+    "credit": 5,
+    "period": 4
+  },
+  {
+    "class": 1,
+    "sub": "صرف",
+    "teacher": "darimi",
+    "credit": 4.5,
+    "period": 3
+  },
+  {
+    "class": 1,
+    "sub": "it",
+    "teacher": "dulki",
+    "credit": 1,
+    "period": 1
+  },
+  {
+    "class": 1,
+    "sub": "hindi",
+    "teacher": "hisham",
+    "credit": 1,
+    "period": 1
+  },
+  {
+    "class": 1,
+    "sub": "ادب",
+    "teacher": "favaz",
+    "credit": 8,
+    "period": 6
+  },
+  {
+    "class": 1,
+    "sub": "تصوف",
+    "teacher": "jabir",
+    "credit": 1,
+    "period": 1
+  },
+  {
+    "class": 1,
+    "sub": "urdu",
+    "teacher": "yazeed",
+    "credit": 7,
+    "period": 4
+  },
+  {
+    "class": 1,
+    "sub": "science",
+    "teacher": "junaid",
+    "credit": 5,
+    "period": 3
+  },
+  {
+    "class": 1,
+    "sub": "social",
+    "teacher": "noufal",
+    "credit": 4.5,
+    "period": 3
+  },
+  {
+    "class": 1,
+    "sub": "نحو",
+    "teacher": "sulfi",
+    "credit": 6,
+    "period": 4
+  },
+  {
+    "class": 1,
+    "sub": "حديث",
+    "teacher": "new",
+    "credit": 3,
+    "period": 3
+  },
+  {
+    "class": 1,
+    "sub": "mlm",
+    "teacher": "wafy",
+    "credit": 4.5,
+    "period": 3
+  },
+  {
+    "class": 4,
+    "sub": "تنوير",
+    "teacher": "hisham",
+    "credit": 5,
+    "period": 4
+  }
+]
