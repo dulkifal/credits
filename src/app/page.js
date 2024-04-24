@@ -24,7 +24,7 @@ export default function Home() {
     }
     teachers[teacherName].push(item);
   }
-  console.log(teachers);
+
 
   const teacherList = teacher.map((item) => ({
     value: item,
@@ -147,6 +147,19 @@ export default function Home() {
                 <td className="border p-2 text-center ">{item.period}</td>
               </tr>
             ))}
+            <tr>
+              <td className="border p-2 text-center ">{}</td>
+              <td className="border p-2 text-center ">{}</td>
+              <td className="border p-2 text-center ">{}</td>
+              <td className="border p-2 text-center ">Total</td>
+              <td className="border p-2 text-center ">{
+                teachers[teacherName].reduce((acc, item) => acc + item.credit, 0)
+              }
+              </td>
+              <td className="border p-2 text-center ">{
+                teachers[teacherName].reduce((acc, item) => acc + item.period, 0)
+              }</td>
+            </tr>
           </tbody>
         </table>
       ))}
