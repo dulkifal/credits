@@ -125,7 +125,7 @@ export default function Home() {
 
       {Object.entries(teachers).map(([teacherName]) => (
         <table
-          className="w-full text-sm text-left text-gray-500 dark:text-gray-400 mb-4" >
+          className="w-full text-sm text-left text-gray-500 dark:text-gray-400 mb-4" key={[teacherName]}>
           <thead>
             <tr >
             <th className="border p-2 text-center">No</th>
