@@ -379,6 +379,13 @@
   },
   {
     "class": 6,
+    "sub": "history",
+    "teacher": "favaz",
+    "credit": 4,
+    "period": 3
+  },
+  {
+    "class": 6,
     "sub": "politics",
     "teacher": "dulki",
     "credit": 3,
