@@ -324,7 +324,7 @@
   {
     "class": 7,
     "sub": "socialogy",
-    "teacher": "salman",
+    "teacher": "new",
     "credit": 5,
     "period": 4
   },
@@ -338,7 +338,7 @@
   {
     "class": 7,
     "sub": "pkv",
-    "teacher": "faizy",
+    "teacher": "yazeed",
     "credit": 2,
     "period": 2
   },
@@ -609,6 +609,13 @@
     "period": 0
   },
   {
+    "class": 5,
+    "sub": "حفظ",
+    "teacher": "basith",
+    "credit": 0.5,
+    "period": 0
+  },
+  {
     "class": 4,
     "sub": "نحو",
     "teacher": "asif",
@@ -732,6 +739,13 @@
     "sub": "class teacher",
     "teacher": "dulki",
     "credit": 3,
+    "period": 0
+  },
+  {
+    "class": 4,
+    "sub": "حفظ",
+    "teacher": "dulki",
+    "credit": 0.5,
     "period": 0
   },
   {
