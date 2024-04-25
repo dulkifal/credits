@@ -112,6 +112,13 @@
     "period": 4
   },
   {
+    "class": 10,
+    "sub": "class teacher",
+    "teacher": "wafy",
+    "credit": 3,
+    "period": 0
+  },
+  {
     "class": 9,
     "sub": "ففه",
     "teacher": "badr",
@@ -222,6 +229,13 @@
     "teacher": "hisham",
     "credit": 7,
     "period": 4
+  },
+  {
+    "class": 9,
+    "sub": "class teacher",
+    "teacher": "favaz",
+    "credit": 3,
+    "period": 0
   },
   {
     "class": 7,
@@ -336,6 +350,13 @@
     "period": 3
   },
   {
+    "class": 7,
+    "sub": "class teacher",
+    "teacher": "sulfi",
+    "credit": 3,
+    "period": 0
+  },
+  {
     "class": 6,
     "sub": "tc",
     "teacher": "asif",
@@ -439,6 +460,13 @@
     "teacher": "yazeed",
     "credit": 6,
     "period": 4
+  },
+  {
+    "class": 6,
+    "sub": "class teacher",
+    "teacher": "noufal",
+    "credit": 3,
+    "period": 0
   },
   {
     "class": 5,
@@ -574,6 +602,13 @@
     "period": 3
   },
   {
+    "class": 5,
+    "sub": "class teacher",
+    "teacher": "basith",
+    "credit": 3,
+    "period": 0
+  },
+  {
     "class": 4,
     "sub": "نحو",
     "teacher": "asif",
@@ -693,6 +728,13 @@
     "period": 4
   },
   {
+    "class": 4,
+    "sub": "class teacher",
+    "teacher": "dulki",
+    "credit": 3,
+    "period": 0
+  },
+  {
     "class": 3,
     "sub": "نحو",
     "teacher": "asif",
@@ -800,7 +842,7 @@
   {
     "class": 3,
     "sub": "حديث",
-    "teacher": "new",
+    "teacher": "jasar",
     "credit": 3,
     "period": 3
   },
@@ -824,6 +866,13 @@
     "teacher": "yazeed",
     "credit": 8,
     "period": 5
+  },
+  {
+    "class": 3,
+    "sub": "class teacher",
+    "teacher": "hisham",
+    "credit": 3,
+    "period": 0
   },
   {
     "class": 2,
@@ -883,10 +932,17 @@
   },
   {
     "class": 2,
-    "sub": "ادب",
+    "sub": "arabic",
     "teacher": "favaz",
-    "credit": 7,
-    "period": 5
+    "credit": 4,
+    "period": 3
+  },
+  {
+    "class": 2,
+    "sub": "ادب",
+    "teacher": "badr",
+    "credit": 3,
+    "period": 2
   },
   {
     "class": 2,
@@ -952,6 +1008,13 @@
     "period": 4
   },
   {
+    "class": 2,
+    "sub": "class teacher",
+    "teacher": "darimi",
+    "credit": 3,
+    "period": 0
+  },
+  {
     "class": 1,
     "sub": "eng",
     "teacher": "asif",
@@ -1002,10 +1065,17 @@
   },
   {
     "class": 1,
-    "sub": "ادب",
+    "sub": "arabic",
     "teacher": "favaz",
-    "credit": 8,
-    "period": 6
+    "credit": 4,
+    "period": 3
+  },
+  {
+    "class": 1,
+    "sub": "ادب",
+    "teacher": "faizy",
+    "credit": 4,
+    "period": 3
   },
   {
     "class": 1,
@@ -1069,5 +1139,75 @@
     "teacher": "wafy",
     "credit": 4.5,
     "period": 3
+  },
+  {
+    "class": 1,
+    "sub": "class teacher",
+    "teacher": "badr",
+    "credit": 3,
+    "period": 0
+  },
+  {
+    "class": "",
+    "sub": "academic",
+    "teacher": "jasar",
+    "credit": 20,
+    "period": 0
+  },
+  {
+    "class": "",
+    "sub": "library",
+    "teacher": "faizy",
+    "credit": 7,
+    "period": 0
+  },
+  {
+    "class": "",
+    "sub": "library",
+    "teacher": "noufal",
+    "credit": 7,
+    "period": 0
+  },
+  {
+    "class": "",
+    "sub": "hod",
+    "teacher": "wafy",
+    "credit": 10,
+    "period": 0
+  },
+  {
+    "class": "",
+    "sub": "wellfare",
+    "teacher": "sulfi",
+    "credit": 5,
+    "period": 0
+  },
+  {
+    "class": "",
+    "sub": "wellfare",
+    "teacher": "asif",
+    "credit": 5,
+    "period": 0
+  },
+  {
+    "class": "",
+    "sub": "outreach",
+    "teacher": "salman",
+    "credit": 5,
+    "period": 0
+  },
+  {
+    "class": "",
+    "sub": "outreach",
+    "teacher": "yazeed",
+    "credit": 5,
+    "period": 0
+  },
+  {
+    "class": "",
+    "sub": "prince",
+    "teacher": "jabir",
+    "credit": 30,
+    "period": 0
   }
 ]

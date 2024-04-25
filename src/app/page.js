@@ -25,7 +25,6 @@ export default function Home() {
     teachers[teacherName].push(item);
   }
 
-
   const teacherList = teacher.map((item) => ({
     value: item,
     label: item + " Usthad",
@@ -63,7 +62,6 @@ export default function Home() {
           // search
           setSearchTerm(e.value);
         }}
-        
       />
 
       <table
@@ -92,22 +90,18 @@ export default function Home() {
         >
           {/* display filtered data only */}
 
-          {filterData(data, searchTerm).map((item, index) =>
-           (
-              // remove dublicate obj
+          {filterData(data, searchTerm).map((item, index) => (
+            // remove dublicate obj
 
-              <tr key={index}>
-
-                <td className="border p-2 text-center">{index +1}</td>
-                <td className="border p-2 text-center">{item.class}</td>
-                <td className="border p-2 text-center">{item.teacher}</td>
-                <td className="border p-2 text-center"> {item.sub}</td>
-                <td className="border p-2 text-center">{item.credit}</td>
-                <td className="border p-2 text-center">{item.period}</td>
-              </tr>
-            ) 
-            
-          )}
+            <tr key={index}>
+              <td className="border p-2 text-center">{index + 1}</td>
+              <td className="border p-2 text-center">{item.class}</td>
+              <td className="border p-2 text-center">{item.teacher}</td>
+              <td className="border p-2 text-center"> {item.sub}</td>
+              <td className="border p-2 text-center">{item.credit}</td>
+              <td className="border p-2 text-center">{item.period}</td>
+            </tr>
+          ))}
           <tr>
             <td className="border p-2 text-center ">{}</td>
             <td className="border p-2 text-center ">{}</td>
@@ -125,10 +119,12 @@ export default function Home() {
 
       {Object.entries(teachers).map(([teacherName]) => (
         <table
-          className="w-full text-sm text-left text-gray-500 dark:text-gray-400 mb-4" key={[teacherName]}>
+          className="w-full text-sm text-left text-gray-500 dark:text-gray-400 mb-4"
+          key={[teacherName]}
+        >
           <thead>
-            <tr >
-            <th className="border p-2 text-center">No</th>
+            <tr>
+              <th className="border p-2 text-center">No</th>
               <th className="border p-2 text-center">Teacher</th>
               <th className="border p-2 text-center">Class</th>
               <th className="border p-2 text-center">Subject</th>
@@ -137,7 +133,7 @@ export default function Home() {
             </tr>
           </thead>
           <tbody>
-            {teachers[teacherName].map((item,index) => (
+            {teachers[teacherName].map((item, index) => (
               <tr key={index}>
                 <td className="border p-2 text-center ">{index}</td>
                 <td className="border p-2 text-center ">{item.class}</td>
@@ -152,13 +148,18 @@ export default function Home() {
               <td className="border p-2 text-center ">{}</td>
               <td className="border p-2 text-center ">{}</td>
               <td className="border p-2 text-center ">Total</td>
-              <td className="border p-2 text-center ">{
-                teachers[teacherName].reduce((acc, item) => acc + item.credit, 0)
-              }
+              <td className="border p-2 text-center ">
+                {teachers[teacherName].reduce(
+                  (acc, item) => acc + item.credit,
+                  0
+                )}
               </td>
-              <td className="border p-2 text-center ">{
-                teachers[teacherName].reduce((acc, item) => acc + item.period, 0)
-              }</td>
+              <td className="border p-2 text-center ">
+                {teachers[teacherName].reduce(
+                  (acc, item) => acc + item.period,
+                  0
+                )}
+              </td>
             </tr>
           </tbody>
         </table>
