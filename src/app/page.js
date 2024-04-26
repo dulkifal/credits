@@ -30,7 +30,7 @@ export default function Home() {
     label: item + " Usthad",
   }));
 
-  // filter function
+  // filter function teacher
   function filterData(data, searchTerm) {
     // remove dublicate obj
     return [...new Set(data)].filter((item) =>
